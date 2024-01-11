@@ -18,5 +18,6 @@ steps:
             - --force
           volumes:
             - .:/workdir
+            - var:/var
           environment:
             - BUILDKITE_BRANCH
