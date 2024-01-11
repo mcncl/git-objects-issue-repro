@@ -12,7 +12,7 @@ steps:
           command:
             - fetch
             - --verbose
-            - origin 
+            - origin
             - ${BUILDKITE_BRANCH}
             - --tags
             - --force
