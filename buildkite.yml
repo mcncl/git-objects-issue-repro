@@ -18,6 +18,6 @@ steps:
             - --force
           volumes:
             - .:/workdir
-            - var:/var
+            - var/lib/buildkite-agent/git-mirrors/git-github-com-mcncl-git-objects-issue-repro/objects:/var/lib/buildkite-agent/git-mirrors/git-github-com-mcncl-git-objects-issue-repro/objects
           environment:
             - BUILDKITE_BRANCH
